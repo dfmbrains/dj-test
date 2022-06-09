@@ -1,0 +1,18 @@
+.activeTab {
+    color: white;
+    padding-bottom: 3px;
+    border-bottom: 4px solid white;
+    cursor: pointer;
+}
+
+.tab {
+    color: white;
+    cursor: pointer;
+}
+
+.tabsContainer {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 36px;
+}

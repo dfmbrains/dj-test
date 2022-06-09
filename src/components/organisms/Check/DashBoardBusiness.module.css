@@ -1,0 +1,121 @@
+.mainContainer {
+    width: 100% ;
+    height: 100%;
+    margin: 0 auto;
+    background: #000000;
+ }
+ 
+ .mainContainer header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 71px 45px 0 101px;
+ }
+ 
+ .burgerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 144px;
+    height: 78px;
+    border-radius: 56px;
+    border: 1px solid #ffffff;
+ }
+ 
+ .headerLeftContainer {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 21px;
+ }
+ 
+ .profileContainer {
+    width: 188px;
+    height: 141px;
+    border: 1px solid #ffffff;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .profileContainer p {
+    display: flex;
+    justify-self: flex-end;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+ }
+ 
+ .avatarContainer {
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     border: 1px solid #ffffff;
+ }
+ .profileContainer hr {
+    width: 80%;
+    
+ }
+ 
+ .mainContainer main {
+    padding-left: 100px;
+ }
+ 
+ .infoAction {
+    display: flex;
+    gap: 1.5rem;
+ }
+ .infoAction button {
+    align-self: center;
+    width: 300px;
+    height: 64px;
+    border: 1px solid #ffffff;
+ }
+ .inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .inputContainer div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 10px ;
+ }
+ .inputContainer label {
+    align-self: flex-start;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+ }
+ 
+ .groupedContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 23px;
+ }
+ 
+ .photoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .editProfileContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 88px;
+ }
+ .editProfileContainer div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    margin: 0 45px 0 150px;
+ }
+ 
+ .editProfileContainer button {
+    width: 300px;
+    height: 64px;
+ }
+ 

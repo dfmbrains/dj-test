@@ -1,0 +1,80 @@
+.mainContainer {
+   height: 150vh;
+   padding-right:60px;
+}
+
+.subHeader {
+   display: flex;
+   justify-content: space-between;
+}
+.subHeader h1 {
+   margin-left: 101px;
+}
+.mainContainer main {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 2rem;
+}
+.cardContainer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 380px;
+   height: 380px;
+   padding-left: 109px;
+   margin-top: 43px;
+}
+.tag {
+   justify-self: center;
+   font-size: 12px;
+   padding: 8px 14px;
+   background: #a134f6;
+   border: 1px solid #a134f6;
+}  
+.cardContainer p {
+   font-size: 24px;
+   padding: 3px 10px 0px 18px;
+}
+.djName {
+   font-weight: 700;
+}
+.djInfo {
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   top: 41%;
+   width: 396px;
+   border: 1px solid #ffffff;
+   height: 78px;
+   background: rgba(0, 0, 0, 0.6);
+}
+
+.action {
+   display: flex;
+   gap: 2rem;
+   position: absolute;
+   top:93%;
+}
+
+.djInfo div {
+   display: flex;
+   flex-direction: column;
+}
+.cardContainer img {
+   width: 396px;
+   height: 396px;
+   border: 1px solid #ffffff;
+}
+.filter {
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   background: #000000;
+   border: 1px solid #ffffff;
+   padding: 25px;
+   width: 50%;
+}

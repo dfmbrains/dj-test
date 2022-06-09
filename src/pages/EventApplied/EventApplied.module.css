@@ -1,0 +1,32 @@
+.eventDetails {
+  padding: 0 0 10%;
+}
+  .marginBig {
+    margin: 28px 0 16px;
+  }
+
+  .marginSmall {
+    margin: 12px 0 0;
+  }
+
+
+.titleBox {
+  display: flex;
+  align-items: center;
+  column-gap: 55px;
+}
+
+.btnBox {
+  margin: 58px 0 0;
+  height: 64px;
+  width: 18%;
+}
+.actionBtn {
+  width: 230px;
+  height: 64px;
+  font-size: 2rem;
+  font-weight: 400;
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}

@@ -1,0 +1,50 @@
+.box {
+  border: 1px solid #FFFFFF;
+  padding: 30px 70px 35px 42px;
+  color: #FFFFFF;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+
+  .place {
+    margin: 12px 0 8px;
+  }
+
+  .time {
+    margin: 12px 0 20px;
+  }
+
+  .name {
+    margin: 5px 0 0;
+  }
+}
+
+.titleBox {
+  display: flex;
+  align-items: center;
+  column-gap: 23px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+}
+
+.bot {
+  display: flex;
+  justify-content: flex-end;
+
+  button {
+    text-transform: unset;
+    color: #FFFFFF;
+
+    svg {
+      margin: 0 0 0 10px;
+    }
+  }
+}
+

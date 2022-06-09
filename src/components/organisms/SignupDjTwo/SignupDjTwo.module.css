@@ -1,0 +1,68 @@
+.mainContainer{
+   display: flex;
+   width: 820px;
+   margin: 0 auto;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+.uploadContainer {
+   width: inherit;
+   display: flex;
+   padding: 90px 0 60px 0;
+   align-items: center;
+   gap: 45px;
+}
+.uploadBtn {
+   width: 300px;
+   height: 64px;
+   font-size: 20px;
+   font-weight: 700;
+}
+.mainContainer label {
+   width: 818px;
+   margin: 0;
+}
+.inputContainer {
+   height: 150px;
+}
+.mainContainer p {
+   font-size: 32px;
+   color: #ffffff;
+   align-self: baseline;
+}
+.mainContainer span {
+   font-size: 32px;
+   font-weight: 700;
+}
+.mainContainer button {
+   width: 300px;
+}
+.mainContainer header {
+   padding: 3rem;
+}
+
+.formContainer button {
+   width: 671px;
+   padding: 12px 0;
+   background: #ffffff;
+   color: #000000;
+   font-size: 32px;
+   font-weight: 400px;
+   margin-bottom: 180px;
+}
+.formContainer div {
+   display: flex;
+   gap: 32px;
+}
+.currency span {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 120px;
+   height: 64px;
+   border: 1px solid #ffffff;
+}
+.city {
+   width: 818px;
+}

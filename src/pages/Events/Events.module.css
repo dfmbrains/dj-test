@@ -1,0 +1,19 @@
+.events {
+  display: flex;
+  flex-direction: column;
+  padding: 0 49px 0 101px;
+}
+
+.row {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.box {
+  margin: 40px 0 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}

@@ -1,0 +1,14 @@
+.button {
+   font: inherit;
+   border: 1px solid #ffffff;
+   color: #ffffff;
+   background: #000000;
+   cursor: pointer;
+   font-size: 1.15rem;
+}
+
+.button:hover {
+   background: #ffffff;
+   color: #000000;
+}
+

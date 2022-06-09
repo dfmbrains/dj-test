@@ -1,0 +1,57 @@
+.mainContainer{
+    padding: 0 0 275px 101px;
+    display: flex;
+}
+
+.addInfo {
+    display: flex;
+    gap: 209px;
+    padding: 14px 0 28px 0;
+}
+.socialIcons {
+    display: flex;
+    gap: 1rem;
+}
+.grouppedContainer {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.action {
+   display: flex;
+   gap: 1rem;
+}
+.imgContainer {
+    width: 396px;
+    height: 396px;
+    background: #a134f6;
+    margin-bottom: 35px;
+}
+
+.mainContent {
+    display: flex;
+    height: 590px;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+.p {
+    margin: 1rem 0;
+}
+.sounds{
+    width: 600px;
+    height: 145px;
+    margin-top: 1rem;
+    background: #5d5563;
+}
+
+.actionBtn {
+    width: 230px;
+    height: 64px;
+    font-size: 32px;
+    font-weight: 400;
+    background: #FFFFFF;
+    color: #000000;
+
+}

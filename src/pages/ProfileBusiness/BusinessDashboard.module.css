@@ -1,0 +1,136 @@
+.mainContainer {
+   padding: 0px 49px 60px 101px;
+}
+.myProfile {
+   font-size: 20px;
+   font-weight: 400;
+   color: #ffffff;
+}
+.avatarContainer {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   border: 1px solid #ffffff;
+}
+.profileContainer hr {
+   width: 80%;
+   margin: 24px 0;
+}
+  
+.infoAction {
+   display: flex;
+   gap: 1.5rem;
+}
+.infoAction button {
+   align-self: center;
+   width: 300px;
+   height: 64px;
+   border: 1px solid #ffffff;
+}
+.inputContainer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.inputContainer div {
+   display: flex;
+   flex-direction: column;
+   margin: 20px 0 10px;
+}
+.inputContainer label {
+   align-self: flex-start;
+   color: #ffffff;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.groupedContainer {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 60px;
+}
+
+.photoContainer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.editProfileContainer {
+   display: flex;
+   align-items: center;
+   gap: 147px;
+}
+
+.uploadBtn {
+   border: 1px solid #ffffff;
+   align-self: center;
+   background: #000000;
+}
+
+.upload {
+   display: flex;
+   align-items: center;
+   gap: 45px;
+   margin-bottom: 28px;
+}
+
+.upload div {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   border: 1px solid #ffffff;
+}
+
+.editProfileContainer ul {
+   display: flex;
+   flex-direction: column;
+   color: #ffffff;
+   gap: 24px;
+}
+
+.editProfileContainer button {
+   width: 300px;
+   height: 64px;
+   align-self: center;
+}
+.inputSection {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.inputContainer {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   margin-bottom: 20px;
+}
+.inputSection label {
+   align-self: flex-start;
+   color: #ffffff;
+   font-size: 20px;
+   font-weight: 700;
+}
+.input {
+   width: 818px;
+   height: 66px;
+   color: #ffffff;
+   font-size: 24px;
+}
+.inputBio {
+   width: 818px;
+   color: #ffffff;
+   font-size: 24px;
+}
+
+.isActive {
+   font-weight: 700;
+   font-size: 20px;
+   color: #ffffff;
+}
+
+.nonActive {
+   color: #ffffff;
+   font-size: 20px;
+}

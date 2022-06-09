@@ -1,0 +1,63 @@
+.modal {
+  display: flex;
+  position: fixed;
+  top: 10vh;
+  left: 5%;
+  width: 721px;
+  height: 571px;
+  border: 1px solid #ffffff;
+  background-color: #000000;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+}
+.content {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.content button {
+  width: 303px;
+}
+.typoContainer{
+  display: flex;
+  gap: 3px;
+}
+.typo {
+  text-align: center;
+}
+
+.actionBtn {
+  width: 302px;
+  height: 60px;
+  color: #000000;
+  background: #ffffff;
+  font-size: 32px;
+  font-weight: 400;
+}
+.link {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .modal {
+    width: 40rem;
+    left: calc(50% - 20rem);
+  }
+}
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

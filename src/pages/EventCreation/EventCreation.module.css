@@ -1,0 +1,44 @@
+.mainContainer {
+    padding: 0 109px 0 101px;
+}
+.formContainer {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 100px;
+ }
+ .inputsContainer {
+     display: flex;
+     gap: 39px;
+ }
+ .left {
+     display: flex;
+     flex-direction: column;
+ }
+ .right {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .div {
+     display: flex;
+     flex-direction: column;
+ }
+ .left label {
+     margin: 20px 0 12px 0;
+     font-weight: 700;
+     font-size: 20px;
+ }
+ .right label {
+     margin: 20px 0 12px 0;
+     font-weight: 700;
+     font-size: 20px;
+ }
+
+ .formContainer button {
+     width: 260px;
+     height: 64px;
+     border: 1px solid #ffffff;
+     margin: 51px 0 39px 0;
+ }

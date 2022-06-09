@@ -1,0 +1,15 @@
+import { ReactComponent as Logo } from '../icons/logo.svg'
+import {ReactComponent as Instagram} from '../icons/instagram.svg'
+import { ReactComponent as BurgerMenu } from '../icons/menu.svg'
+import { ReactComponent as Studio } from '../icons/33.svg'
+import { ReactComponent as VisaLogo } from '../icons/visa.svg'
+import { ReactComponent as InstaLogo } from '../icons/instagram.svg'
+import { ReactComponent as CloudLogo } from '../icons/soundCloud.svg'
+import { ReactComponent as VisibilityOn } from '../icons/visibilityOn.svg'
+import { ReactComponent as Twitter } from '../icons/twitter.svg'
+import { ReactComponent as Youtube } from '../icons/youtube.svg'
+import { ReactComponent as Spotify } from '../icons/spotify.svg'
+import { ReactComponent as VisibilityOff } from '../icons/visibilityOff.svg'
+import Avatar from '../icons/avatarSmall.png'
+
+export {Logo, BurgerMenu, Studio, VisaLogo, Avatar, InstaLogo, CloudLogo, Instagram, VisibilityOff, VisibilityOn, Twitter, Youtube, Spotify}

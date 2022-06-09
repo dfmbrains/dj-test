@@ -1,0 +1,67 @@
+.mainContainer main {
+   padding: 0 45px 0 101px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.ava {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+}
+.logoContainer {
+    display: flex;
+    gap: 1rem;
+}
+.right {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ffffff;
+    margin-bottom: 132px;
+}
+.card div {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+}
+.isActive {
+    font-size: 32px;
+    font-weight: 700px;
+    text-decoration: underline;
+    color: #ffffff;
+}
+.nonActive {
+    font-size: 32px;
+    font-weight: 400px;
+    color: #ffffff;
+}
+nav {
+    display: flex;
+    gap: 56px;
+    margin: 68px 0 58px 0;
+}
+.eventsContainer {
+    display: flex;
+    gap: 28px;
+}

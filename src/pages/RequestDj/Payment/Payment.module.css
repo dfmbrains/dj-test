@@ -1,0 +1,92 @@
+.mainContainer {
+   padding: 70px 109px 0 101px;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+.mainContent {
+   display: flex;
+   justify-content: space-between;
+}
+.right {
+   display: flex;
+   align-items: center;
+   gap: 48px;
+}
+.right a {
+   font-size: 24px;
+   color: #ffffff;
+}
+.right div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 26px;
+   width: 144px;
+   height: 78px;
+   border-radius: 56px;
+   border: 1px solid #ffffff;
+}
+.visaSection {
+   width: 404px;
+   height: 80px;
+   margin: 28px 0 40px 0;
+   border: 1px solid #ffffff;
+   display: flex;
+   gap: 12px;
+   align-items: center;
+}
+.visaSection select {
+   color: #ffffff;
+   background: inherit;
+   border: none;
+}
+.cancellationContext {
+   width: 528px;
+}
+.leftContent {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+.leftContent hr {
+   margin: 24px 0 16px 0;
+}
+.overallInfo {
+   width: 361px;
+   height: 487px;
+   border: 1px solid #ffffff;
+   padding: 53px 49px 44px 50px;
+}
+
+.overallInfo hr {
+   margin: 24px 0;
+}
+.djInfo {
+   display: flex;
+   gap: 12px;
+}
+.djInfo div {
+   display: flex;
+   flex-direction: column;
+}
+.eventInfo {
+   display: flex;
+   flex-direction: column;
+}
+.paymentInfo {
+   display: flex;
+   align-items: center;
+   gap: 81px;
+}
+
+.actionBtn {
+   width: 261px;
+   height: 64px;
+   margin: 24px 0 100px 0;
+   color: #000000;
+   background: #ffffff;
+   font-size: 24px;
+   font-weight: 400;
+}

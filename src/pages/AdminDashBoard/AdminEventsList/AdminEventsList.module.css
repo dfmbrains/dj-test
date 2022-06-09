@@ -1,0 +1,63 @@
+.userListContainer {
+    width: 1280px;
+    height: 730px;
+    margin: 0 auto 0 auto;
+    color: white;
+    border: 2px solid #ffffff85;
+}
+
+.userListHeader {
+    display: grid;
+    grid-template-columns: 243px 278px 293px 60px ;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.line {
+    width: 1237px;
+    margin: 0 auto;
+    background-color: #ffffff85;
+    border-color: #ffffff00;
+}
+
+.userListItem {
+    display: grid;
+    grid-template-columns: 243px 278px 293px 208px 220px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.button {
+    height: 64px;
+    background-color: #00000000;
+    border: 1px solid white;
+    color: white;
+    width: 220px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.userList {
+    height: 624px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.userList::-webkit-scrollbar {
+    width: 10px;
+    height: auto;
+}
+.userList::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+.userList::-webkit-scrollbar-thumb {
+    background: #C4C4C4;
+}
+.userList::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

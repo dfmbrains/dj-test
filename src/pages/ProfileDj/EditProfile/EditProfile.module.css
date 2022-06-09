@@ -1,0 +1,53 @@
+.editProfileContainer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+}
+.ulDiv {
+   display: flex;
+   justify-content: space-between;
+}
+.djAvatar {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   border: 1px solid #ffffff;
+   margin: 0 45px 0 150px;
+}
+
+.editProfileContainer button {
+   width: 300px;
+   height: 64px;
+   align-self: center;
+}
+.inputSection {
+   display: flex;
+   width: 818px;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.inputContainer {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   margin-bottom: 20px;
+}
+.inputSection label {
+   align-self: flex-start;
+   color: #ffffff;
+   font-size: 20px;
+   font-weight: 700;
+}
+.input {
+   width: 818px;
+   height: 66px;
+   color: #ffffff;
+   font-size: 24px;
+}
+.inputBio {
+   width: 818px;
+   color: #ffffff;
+   font-size: 24px;
+}

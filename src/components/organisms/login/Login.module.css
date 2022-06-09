@@ -1,0 +1,76 @@
+.mainContainer {
+   padding-bottom: 60px;
+}
+.formContainer {
+   display: flex;
+   width: inherit;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.formContainer h1 {
+   size: 60px;
+   font-weight: 700;
+   color: #ffffff;
+   margin-bottom: 80px;
+}
+.dj {
+   display: flex;
+   justify-content: space-around;
+   /* gap: 1rem; */
+}
+.whiteBtn {
+   background: #ffffff;
+   width: 180px;
+   height: 35px;
+   color: #000000;
+   margin-bottom: 80px;
+}
+.blackBtn {
+   width: 180px;
+   height: 35px;
+   background: #000000;
+   color: #ffffff;
+   margin-bottom: 80px;
+}
+.control {
+   display: flex;
+   flex-direction: column;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.btn {
+   border: none;
+   cursor: pointer;
+   background-color: inherit;
+   align-items: center;
+   width: 2rem;
+}
+.actionBtn {
+   width: 670px;
+   height: 64px;
+   margin: 24px 0 8px 0;
+}
+
+.newUSer {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+.formContainer a {
+   display: flex;
+   align-self: flex-start;
+}
+.link {
+   color: #ffffff;
+}
+.linkBold {
+   color: #ffffff;
+   font-weight: 700;
+}

@@ -1,0 +1,28 @@
+.informationContainer {
+    display: grid;
+    grid-template-columns: 330px 235px 153px;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.text {
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.total {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.avatar {
+    display: flex;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin-right: 16px;
+}

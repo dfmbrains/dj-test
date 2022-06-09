@@ -1,0 +1,10 @@
+.submit {
+  text-transform: unset !important;
+  background: white !important;
+  color: #000000 !important;
+
+
+  &:hover {
+    background: #afafaf !important;
+  }
+}
